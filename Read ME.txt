@@ -1,0 +1,11 @@
+1. Download and Install Visual Studio
+ 
+2. Also, install NPM, NodeJS, Electron.NET. 
+
+3. Now, unzip the zipped file and open .SLN file. 
+
+4. Visual studio will open.
+
+5. Select any folder (browser) from the drop down. 
+
+6. Beside drop down, select ELECTRON APP and run the project.

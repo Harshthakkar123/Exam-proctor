@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewData["Title"] = "DeleteAccount";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+<a onclick="window.location = '/Dashboard/Settings'" class="SettingBack mb-3 cursor-pointer smooth-transition"><span class="smooth-transition">←</span>Setting</a>
+
+<h1 class="PageHeading">
+    Delete Admins Account
+</h1>
+
+<div class="container">
+    <form id="DeleteAccount" method="post" onsubmit="return false;" class="row">
+        <div class="col-12 my-3 text-center">
+            <input type="password" name="Password" placeholder="Enter Password" class="py-3 px-4 border-0 border-12 shadow-2 shadow-1-hover smooth-transition font-weight-bold" />
+        </div>
+        <div class="col-12 my-3 mt-5 text-center">
+            <button type="submit" onclick="DeleteAccount()" class="bg-blue text-white shadow-blue border-10 px-5 py-3 bg-blue-hover shadow-blue-hover smooth-transition cursor-pointer mx-5 border-0">
+                Delete Account
+            </button>
+        </div>
+    </form>
+</div>
+
